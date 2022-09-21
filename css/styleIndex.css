@@ -1,0 +1,29 @@
+
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.featurette-divider {
+    margin: 0rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+  
+
+
+  @media (min-width: 40em) {
+   
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
