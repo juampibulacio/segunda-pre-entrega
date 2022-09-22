@@ -9,43 +9,11 @@ html, body {
     box-sizing: border-box;
     font-family: sans-serif;
 }
-#header {
-    background-color: red;
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: center;
-}
 
-#header .header_logo a {
-    text-decoration: none;
-}
-
-#header .header_logo img {
-    width: 200px;
-    height: auto;
-}
-
-#header .header_logo p {
-    color: black; 
-    padding-left: 75px;
-}
-
-#header .header_menu ul {
-    display: flex;
-    list-style: none;
-}
-#header .header_menu ul li a {
-    display: flex;
-    color: black;
-    text-decoration: none;
-    padding: 10px;
-    margin: 10px;
-}
 
 
 #main {
-    background-color: rgb(14, 14, 15);
+    
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -91,8 +59,7 @@ html, body {
 
 
 #main .nav_flex-container {
-    /* background-color: purple ; */
-    /* height: 100vh;  */
+    
     padding: 10px;
     display: flex;
     margin-bottom: 40px;
@@ -103,10 +70,8 @@ html, body {
     align-content: center ;
 }   
 #main .flex-item {
-/* background-color: black; */
 display: flex;
 color: white;
-/* width: 250px; */
 text-align: center;
 flex-direction: row;
 gap: 100px;
@@ -124,70 +89,9 @@ gap: 100px;
     transform: scale(1.5,1)
 }
 
-#main .nav-h2{
-    margin: 20px;
-}
-
-#main .nav-parrafo {
-    margin: 60px;
-    
-}
-
-
-
-#main .main_form {
-    display: flex;
-    margin: 0 auto;
-    width: 400px;
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em; 
-   color: white;
-}
-
-#main .form_ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#main .form_li {
-    margin-top: 1em;
-}
-
-#main .form_label {
-    display: inline-block;
-    width: 90px;
-    text-align: center;
-  }
-  
-  #main .form_campo {
-    width: 300px;
-    box-sizing: border-box;
-    border: 1px solid #999;
-  }
-  
-  #main .form_campo:focus {
-    border-color: #000;
-  }
-  
-  #main .form_texto {
-    vertical-align: top;
-    height: 5em;
-  }
-  
-  #main .button {
-    padding-left: 80px;
-    list-style: none; 
-    margin: 1em;
-    
-}
-
-
-
 
 #section .section_div {
-    /* background-color: red; */
+    
     display: flex;
     padding: 20px;
     justify-content: space-evenly;
@@ -199,10 +103,9 @@ gap: 100px;
 #section .section_lista {
     display: flex;
     list-style: none;
-    color: black;
     text-decoration: none;
     padding: 10px;
-    margin: 10px;
+    
 }
 
 #section .section_lista li {
@@ -211,25 +114,13 @@ gap: 100px;
 }
 
 #section .section_link {
-    color: black;
+    
     text-decoration: none;
     margin-top: 20px;
 }
 
 #section .section_p {
-    color: black;
+    
     text-decoration: none;
     margin-top: 15px;
-}
-
-
-#footer {
-    background-color: red;
-}
-#footer a{
-    text-decoration: none;
-}
-#footer p {
-    color: black;
-    text-align: end;
 }

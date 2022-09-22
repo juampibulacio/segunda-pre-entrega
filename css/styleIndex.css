@@ -13,6 +13,9 @@ html, body {
     letter-spacing: -.05rem;
   }
   
+  .link-sin-estilo {
+    text-decoration: none;
+  }
 
 
   @media (min-width: 40em) {
