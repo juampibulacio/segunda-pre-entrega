@@ -1,0 +1,61 @@
+@import "ajustesGenerales";
+@import "cssBootstrap";
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    &_background {
+        background-image: url(../imagenes/Teatro-Incandescente-1-1024x683.jpg) ;
+    }
+
+    &_h1 {color: beige;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    &_div {
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        &_parrafo {
+            color: white;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+.section {
+    &_div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        &_lista {
+            display: flex;
+            list-style: none;
+            text-decoration: none;
+            padding: 10px;
+            &_li {
+                padding: 10px;
+                margin: 10px;
+            }
+          }
+        &_link {
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        &_p {
+            text-decoration: none;
+             margin-top: 0px;
+        }
+        
+    }
+}
