@@ -1,2 +1,2 @@
-# segunda-pre-entrega.github.io
-segundo trabajo
+# tercera-pre-entrega.github.io
+tercer trabajo
