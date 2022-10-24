@@ -10,6 +10,9 @@
 
     &_background {
         background-image: url(../imagenes/Teatro-Incandescente-1-1024x683.jpg) ;
+        &_espectaculos {
+            background-image: url(../imagenes/teatrobackground.png);
+        }
     }
 
     &_h1 {color: beige;
@@ -33,6 +36,9 @@
 
 
 .section {
+    &_background {
+        background-image: url(../imagenes/backgroundpattern.jpg);
+    }
     &_div {
         display: flex;
         justify-content: space-evenly;
