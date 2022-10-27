@@ -44,6 +44,9 @@ html, body {
 .main_background_espectaculos {
   background-image: url(../imagenes/teatrobackground.png);
 }
+.main_background_OtrasActividades {
+  background-image: url(../imagenes/backgroundOtrasActividades.jpg);
+}
 .main_h1 {
   color: beige;
   padding: 10px;
