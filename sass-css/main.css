@@ -48,7 +48,7 @@ html, body {
   background-image: url(../imagenes/backgroundOtrasActividades.jpg);
 }
 .main_h1 {
-  color: beige;
+  color: white;
   padding: 10px;
   margin: 20px;
 }
@@ -67,6 +67,9 @@ html, body {
 
 .section_background {
   background-image: url(../imagenes/backgroundpattern.jpg);
+}
+.section_background_OtrasActividades {
+  background-image: url(../imagenes/backgroundOtrasActividades.jpg);
 }
 .section_div {
   display: flex;

@@ -18,7 +18,7 @@
         }
     }
 
-    &_h1 {color: beige;
+    &_h1 {color: white;
         padding: 10px;
         margin: 20px;
     }
@@ -33,6 +33,7 @@
         &_parrafo {
             color: white;
             margin-bottom: 20px;
+            
         }
     }
 }
@@ -41,6 +42,9 @@
 .section {
     &_background {
         background-image: url(../imagenes/backgroundpattern.jpg);
+        &_OtrasActividades {
+            background-image: url(../imagenes/backgroundOtrasActividades.jpg);
+        }
     }
     &_div {
         display: flex;
