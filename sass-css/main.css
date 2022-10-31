@@ -60,6 +60,11 @@ html, body {
   flex-direction: row;
   gap: 40px;
 }
+@media (max-width: 640px) {
+  .main_div {
+    flex-direction: column;
+  }
+}
 .main_div_parrafo {
   color: white;
   margin-bottom: 20px;
@@ -81,11 +86,16 @@ html, body {
   display: flex;
   list-style: none;
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
+}
+@media (max-width: 360px) {
+  .section_div_lista {
+    flex-direction: column;
+  }
 }
 .section_div_lista_li {
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
 }
 .section_div_link {
   text-decoration: none;

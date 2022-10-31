@@ -29,6 +29,9 @@
         text-align: center;
         display: flex;
         flex-direction: row;
+        @media (max-width: 640px){
+            flex-direction: column;
+            }
         gap: 40px;
         &_parrafo {
             color: white;
@@ -55,10 +58,13 @@
             display: flex;
             list-style: none;
             text-decoration: none;
-            padding: 10px;
+            padding: 5px;
+            @media (max-width: 360px){
+                flex-direction: column;
+                }
             &_li {
-                padding: 10px;
-                margin: 10px;
+                padding: 5px;
+                margin: 5px;
             }
           }
         &_link {
